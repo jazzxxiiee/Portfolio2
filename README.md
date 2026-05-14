@@ -5,14 +5,14 @@
 ```python
 print("===== UNIVERSITY STUDENT RISK ASSESSMENT =====\n")
 ```
-### User Input
+#### User Input
 ```python
 name = input("Enter student name: ")
 attendance = float(input("Enter attendance percentage: "))
 quiz_average = float(input("Enter quiz average: "))
 violations = int(input("Enter number of violations: "))
 ```
-### Conditional Statements
+#### Conditional Statements
 ```python
 if attendance >= 90 and quiz_average >= 90 and violations == 0:
     status = "ACADEMIC EXCELLENCE"
@@ -34,7 +34,7 @@ else:
     status = "DEAN'S INTERVENTION"
     action = "Subject for disciplinary review"
 ```
-### Output
+#### Output
 ```python
 print("\n========== ASSESSMENT RESULT ==========")
 print("Student Name   :", name)
